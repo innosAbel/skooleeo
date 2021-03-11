@@ -1,3 +1,8 @@
+<?php 
+  if(!isset($_SESSION)) session_start();
+  ob_start();
+?>
+
 <?php
 
 $vst_id = '-vst-';         // an identifier to know that it is a visitor, not logged user

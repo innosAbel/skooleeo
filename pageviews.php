@@ -1,4 +1,8 @@
 <?php 
+  if(!isset($_SESSION)) session_start();
+  ob_start();
+?>
+<?php 
 // connect to the MySQL server
 $host = 'localhost';
 $user = 'root';
