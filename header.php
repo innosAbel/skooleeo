@@ -1,5 +1,8 @@
 <?php include 'config/bootstrap.php'; ?>
-<?php if(!isset($_SESSION)) session_start(); ?>
+<?php 
+  if(!isset($_SESSION)) session_start();
+  ob_start();
+?>
 <?php 
 
     //Create DB Object
@@ -59,6 +62,9 @@
               <a class="nav-link" href="posts.php?category=<?php echo $row['id'] ;?>"><?php echo $row['name'] ;?></a>
             </li>
           <?php endwhile; ?>
+          <li class="nav-item">
+              <a class="nav-link" href="/admin">Admin</a>
+            </li>
           <?php else : ?>
             <p>There are no categories yet</p>
         <?php endif; ?>
