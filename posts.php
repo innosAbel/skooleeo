@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'header.php'; ?>
 <?php if ($posts) : ?>
   <?php while ($row=$posts->fetch_assoc()) : ?>
     <div class="card mb-3">
@@ -17,4 +17,4 @@
   <p>There are no posts yet</p>
 
 <?php endif; ?>
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>

@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'header.php'; ?>
 
 <?php 
 
@@ -29,4 +29,4 @@
             <?php echo $post['body']; ?>
             </div><!-- /.blog-post -->
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>

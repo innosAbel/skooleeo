@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'header.php'; ?>
 
 <?php 
 
@@ -38,4 +38,4 @@
   <p>There are no posts yet</p>
 
 <?php endif; ?>
-<?php include 'includes/footer.php'; ?>
+<?php include 'footer.php'; ?>
