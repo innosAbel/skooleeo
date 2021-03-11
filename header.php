@@ -1,8 +1,5 @@
 <?php include 'config/bootstrap.php'; ?>
-<?php 
-  if(!isset($_SESSION)) session_start();
-  ob_start();
-?>
+
 <?php 
 
     //Create DB Object
