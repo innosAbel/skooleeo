@@ -5,10 +5,10 @@
           <div class="card bg-light mb-3" style="max-width: 18rem;">
             <div class="card-header">Site Statistics</div>
             <div class="card-body">
-            <?php include 'helpers/counter.php'; ?>
+            <?php include 'counter.php'; ?>
             <hr>
             <h4>Page Views</h4>
-            <?php include 'helpers/pageviews.php'; ?>
+            <?php include 'pageviews.php'; ?>
             <p><?php echo $site_description ;?></p>
             </div>
           </div>
